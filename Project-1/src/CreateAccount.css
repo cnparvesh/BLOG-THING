@@ -1,0 +1,52 @@
+.create-container {
+  padding: 60px 80px;
+  background: rgb(14, 13, 18);
+  min-height: 100vh;
+  color: white;
+}
+
+.create-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input,
+select {
+  padding: 12px;
+  background: #2a2d3e;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+button {
+  align-self: flex-end;
+  padding: 10px 25px;
+  background: #6c63ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
